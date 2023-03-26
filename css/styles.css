@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 1900px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins';
+    width: 100%;
+    padding: 2rem 5rem;
+    background-color: #ffebec;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navbar-marca{
+    font-size: 1.5rem;
+}
+
+#hero{
+    background-color: #ffebec;
+    background-repeat: no-repeat;
+    background-position:right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-between;
+    align-items: flex-start;
+    height: 40rem;
+    padding: 5rem;
+}
+#hero img{
+    width: 700px;
+}
+
+.txt-hero{
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: start; 
+}
+
+.title-img{
+    margin-top: 2rem;
+    font-size: 495%;
+    font-weight: bold;
+    margin-right: 28rem;
+    line-height: 105%;
+}
+
+.txt-img{
+    font-family: 'Poppins';
+    margin-top: 2rem;
+    font-size: 125%;
+    margin-right: 30rem;
+    line-height: 150%;
+    padding-bottom: 2rem;
+}
+
+button{
+    font-family: 'Poppins';
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+}
+
+#txt-parrafo{
+    padding: 5rem;
+}
+
+.txt-principal{
+    text-align: center;
+}
+
+.txt-principal h2{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.txt-principal p{
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    padding-bottom: 2rem;
+    margin: 0rem 31rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20rem;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+.txt-centrado{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.txt-centrado h3{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1.5rem 0rem;
+    margin: 0;
+}
+
+.txt-centrado p{
+    font-size: 1.1rem;
+    font-family: 'Poppins';
+    text-align: start;
+}
+
+.items{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5rem;
+    background-color: #f4f4f4;
+    font-family: 'Poppins';
+    font-size: 0.8rem;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
